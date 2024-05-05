@@ -45,31 +45,6 @@ Agri Connect is built on the MERN stack (MongoDB, Express.js, React.js, Node.js)
 - **Community Building:** Strengthening the agricultural community by introducing forums, expert Q&A sessions, and knowledge-sharing initiatives within the platform.
 
 
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env files
-
-### client (Vite + React)
-
-- `VITE_API`: URL for the main server.
-- `VITE_ML_API`: URL for the Flask ML server.
-- `VITE_OPENWEATHERMAP_API_KEY`: API key for OpenWeatherMap.
-- `VITE_FB_APIKEY`: Firebase API key.
-- `VITE_FB_AUTHDOMAIN`: Firebase authentication domain.
-- `VITE_FB_PROJECTID`: Firebase project ID.
-- `VITE_FB_STORAGEBUCKET`: Firebase storage bucket.
-- `VITE_FB_MESSAGINGSENDERID`: Firebase messaging sender ID.
-- `VITE_FB_APPID`: Firebase app ID.
-
-### server (MERN)
-
-- `PORT`: Port number for the server.
-- `MONGO_URL`: MongoDB connection string.
-- `JWT_SECRET`: Secret key for JWT authentication.
-
-### ml-server (FLASK)
-
-- `OPENAI_API_KEY`: API key for OpenAI.
 
 
 ## Run Locally
@@ -106,6 +81,32 @@ Install dependencies (ml-server - FLASK)
   cd ml-server
   pip install
 ```
+
+### Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env files
+
+#### client (Vite + React)
+
+- `VITE_API`: URL for the main server.
+- `VITE_ML_API`: URL for the Flask ML server.
+- `VITE_OPENWEATHERMAP_API_KEY`: API key for OpenWeatherMap.
+- `VITE_FB_APIKEY`: Firebase API key.
+- `VITE_FB_AUTHDOMAIN`: Firebase authentication domain.
+- `VITE_FB_PROJECTID`: Firebase project ID.
+- `VITE_FB_STORAGEBUCKET`: Firebase storage bucket.
+- `VITE_FB_MESSAGINGSENDERID`: Firebase messaging sender ID.
+- `VITE_FB_APPID`: Firebase app ID.
+
+#### server (MERN)
+
+- `PORT`: Port number for the server.
+- `MONGO_URL`: MongoDB connection string.
+- `JWT_SECRET`: Secret key for JWT authentication.
+
+#### ml-server (FLASK)
+
+- `OPENAI_API_KEY`: API key for OpenAI.
 
 Start the server (client + server)
 

@@ -1,5 +1,7 @@
 # Agri Connect 🌿🔗
 
+[![YouTube Video Thumbnail](https://firebasestorage.googleapis.com/v0/b/test-576b6.appspot.com/o/tbn.png?alt=media&token=a008a450-af6c-418a-9948-38d9696330dd)](https://www.youtube.com/watch?v=hSLUzoctYGg)
+
 ## 🔥 Inspiration
 
 Agri Connect was inspired by the desire to create a comprehensive platform that addresses the diverse agricultural needs of farmers. We recognized the challenges faced by farmers in accessing relevant information, market trends, and agricultural assistance, and sought to develop a solution that would streamline these processes and empower farmers to make informed decisions.
@@ -44,7 +46,13 @@ Agri Connect is built on the MERN stack (MongoDB, Express.js, React.js, Node.js)
 - **Expanded Language Support:** Continuously expanding our language support to reach more farmers across different regions.
 - **Community Building:** Strengthening the agricultural community by introducing forums, expert Q&A sessions, and knowledge-sharing initiatives within the platform.
 
+## Screenshots
 
+![App Screenshot 01](https://firebasestorage.googleapis.com/v0/b/test-576b6.appspot.com/o/ss1.png?alt=media&token=345b37bf-34e1-49ae-a12b-941cfdf92e94)
+
+![App Screenshot 02](https://firebasestorage.googleapis.com/v0/b/test-576b6.appspot.com/o/ss2.png?alt=media&token=8dbe3d9b-722f-4463-bc92-dcce4f86b856)
+
+![App Screenshot 03](https://firebasestorage.googleapis.com/v0/b/test-576b6.appspot.com/o/ss3.png?alt=media&token=44d0dad5-298d-4605-b41e-c15e924ac6bb)
 
 
 ## Run Locally
@@ -121,4 +129,11 @@ Start the ml-server (FLASK)
   cd ml-server
   python main.py
 ```
+
+
+## Authors
+
+- [@ashishnallana](https://www.github.com/ashishnallana)
+- [@Yaswanth14](https://github.com/Yaswanth14)
+- [@sahithigurlinka3](https://github.com/sahithigurlinka3)
 

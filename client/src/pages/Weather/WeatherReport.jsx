@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const WeatherReport = ({ date }) => {
   const [weatherData, setWeatherData] = useState(null);
   const [currdata, setCurrdata] = useState(null);
-  const apiKey = "a81bf9d4bac301abc0d45d58279b5010";
+  const apiKey = import.meta.env.VITE_OPENWEATHERMAP_API_KEY;
   const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=visakhapatnam,in&mode=json&appid=${apiKey}`;
   let arr = [];
 
@@ -53,7 +53,6 @@ const WeatherReport = ({ date }) => {
       </h1>
       {weatherData ? (
         <div>
-          {/* <div className="bg-[#E4F9DC]"> */}
           <p>Description : {currdata.weather[0].description}</p>
           <img
             src={`https://openweathermap.org/img/wn/${currdata.weather[0].icon}@2x.png`}

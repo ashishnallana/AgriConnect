@@ -7,12 +7,12 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAc7rQaxvpsqbnvYiVySnJhvwQ6AQR0yYw",
-  authDomain: "agriconnect-5a188.firebaseapp.com",
-  projectId: "agriconnect-5a188",
-  storageBucket: "agriconnect-5a188.appspot.com",
-  messagingSenderId: "287402366773",
-  appId: "1:287402366773:web:85c4e2bdeb004205415e7c",
+  apiKey: import.meta.env.VITE_FB_APIKEY,
+  authDomain: import.meta.env.VITE_FB_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_FB_PROJECTID,
+  storageBucket: import.meta.env.VITE_FB_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_FB_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_FB_APPID,
 };
 
 const app = initializeApp(firebaseConfig);
